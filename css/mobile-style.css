@@ -1,0 +1,265 @@
+@media only screen and (max-width:768px){
+    :root{
+
+        --single-font:"Singlet",cursive;
+        --Rubik:"Rubik",cursive;
+        --Patua:"Patua One",cursive;
+        --Lobster:"Lobster",cursive;
+        --light-black:#2e2c2caf;
+        --bggradient:linear-gradient(to bottom,#79b0c0,#104977);
+        --light-gray:rgba(255,255,255,0.5)
+        /* --bggradient:linear-gradient(to bottom,#bb2476,#ff512f); */
+    
+    
+    }
+  
+ 
+   
+  header nav .navbar-brand a{
+  position: relative;
+
+
+  }
+  header nav .navbar-brand i{
+    position: absolute;
+    left: 0;
+    }
+    #enp{
+        display: none;
+    }
+    header .nav-item:first-child {
+
+       padding-top: 100px;
+    }
+    header .navbarNav ul{
+      margin: auto;
+    }
+    header .row .col-md-5 img{
+        width: 100%;
+        border-radius: 10px;
+        transition: box-shadow ease-in 0.5s;
+      
+      
+      }
+      .section-1 .row .pray img{
+        width: 80%;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.8);
+        height: 100vmin;
+    }
+      .section-1 .row .col-md-6:last-child  .panel{
+        position: absolute;
+        background-color: white;
+       
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+        font-family:var(--Rubik);
+        border-radius: 3px;
+        top: 7vmin;
+        left: 0vmin;
+        padding: 12vmin 5vmin 20vmin 10vmin;
+      text-align: center; 
+        z-index: 1; 
+        
+    }
+    .cover{
+        /* //url(../images/pexels-designecologist-1779487.jpg); */
+        width: 100%;
+
+        background-image: url(../images/pexels-harsch-shivam-2007647.jpg);
+        height: 100%;
+        background-position: -24rem -19rem;
+        background-size: 100%;
+        position: relative;
+        z-index: 0;
+        margin-top: 100vmin;
+    }
+    .numbers .rect{
+        position: relative;
+        background: white;
+        z-index: 1;
+        width: 6rem;
+        height:6rem;
+        padding-top: 5vmin;
+        margin: 20px;
+        border-radius: .5em;
+        box-shadow: 1px 2px 50px 0px rgba(22, 54, 66, 0.74) ;
+        /* box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349) ; */
+    
+    
+    }
+    .numbers{
+        margin-top: 0vmin;
+    }
+    .numbers .rect h1{
+        color: rgb(130, 165, 206);
+        font-size: 20px;
+    }
+    .numbers .rect p{
+        color: black;
+        font-family: var(--Rubik);
+        font-size: 1rem;
+      
+    }
+    .section-3 {
+  
+        height: 50vmin;
+        width: 100%;
+        background:var(--bggradient);
+        height: 100%;
+       
+      }
+      .section-3 .row .col-md-12 h1{
+        padding:5vmin 0;
+        color: white;
+      
+        font-size: 2rem;
+        
+      
+    
+    }
+    .section-3 .row .col-md-12 p{
+       
+        color: white;
+        opacity: 0.8;
+        padding: 10vmin 3vmin;
+        font-size: 3vmin;
+    
+    }
+    .section-3  .Platform {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 5vmin;
+    }
+    .section-3  .Platform .desktop{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: whitesmoke;
+        width:30%;
+        justify-content: center;
+        border-radius: 10px;
+        padding:2vmin 0;
+    
+    }
+    
+    .section-3  .Platform .col-md-6 .dir-desktop{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    
+    }
+    /* ///////index */
+    .header-content{
+       display: block;
+       
+       
+       
+    }
+    /* .header-content .brand{
+        font-size: 32px;
+        text-decoration: none;
+        color: #fff;
+    } */
+    
+ 
+    .header-content ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        list-style: none;
+        width: 100%;
+     
+        
+    
+    }
+    
+    .header-content li a{
+        display:block;
+        color: #fff;
+        min-width: 50px;
+        margin: 0 5px;
+        padding: 10px
+    }
+      #user_info{
+       display: block;
+        align-items: center;
+        font-family: var(--Lobster);
+        font-size: 1rem;
+
+    }
+  #dis  #user_info img{
+       
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    /* ...... */
+    #enp2{
+        color: white;
+      float: right;
+      font-size: xx-large;
+      cursor: pointer;
+    }
+    .header-content #dis  ul#user_info li {
+        position: relative;
+        margin: 0 7px;
+     
+       
+        /* display:block; */
+    }
+ 
+    .header-content #dis{
+        display: none;
+    }
+    .header-content ul#user_info li .badge{
+        width: 20px;
+        height: 20px;
+        background: crimson;
+        color:#fff;
+        text-align: center;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        
+        top: -9px;
+        right: 11px;
+        line-height: 20px;
+        display: none;
+    
+    
+    }
+    .header-content ul#user_info a{
+        text-decoration:none;
+    }
+      
+  
+
+}
+@media only screen and (max-width:425px){
+
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+    header nav .navbar-brand a{
+        color: aqua;
+     }
+     #enp2{
+        color: white;
+      float: right;
+      font-size: xx-large;
+    }
+}
+@media only screen and (max-width:320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+    .section-4 .carousel-inner{
+        margin-left: -14vmin;
+    }
+    header nav .navbar-brand a{
+        color: aqua;
+     }
+}

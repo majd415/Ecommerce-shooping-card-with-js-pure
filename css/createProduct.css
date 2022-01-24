@@ -1,0 +1,43 @@
+:root{
+
+    --single-font:"Singlet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua One",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#79b0c0,#104977);
+    --light-gray:rgba(255,255,255,0.5)
+    /* --bggradient:linear-gradient(to bottom,#bb2476,#ff512f); */
+
+
+}
+
+
+
+
+.create-product-page{
+
+}
+.create-product-page form{
+
+}
+.create-product-page input,.create-product-page select{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(24, 21, 21);
+    margin: 10px 0;
+    display: block;
+    border-radius:6px ;
+    font-size: 18px;
+    box-shadow: 5px 20px 20px 5px rgba(51, 49, 50,0.8);
+    font-family: var(--Lobster);
+}
+.create-product-page input[type=submit]{
+    background-color: rgb(29, 26, 26);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 5px 20px 20px 5px rgba(51, 49, 50,0.8);
+    font-family: var(--Lobster);
+}

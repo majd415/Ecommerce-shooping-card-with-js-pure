@@ -1,0 +1,453 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+
+    --single-font:"Singlet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua One",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#79b0c0,#104977);
+    --light-gray:rgba(255,255,255,0.5)
+    /* --bggradient:linear-gradient(to bottom,#bb2476,#ff512f); */
+
+
+}
+header a{
+    font-family:var(--single-font);
+    font-size: 0.9em;
+    color: rgb(255, 255, 255);
+}
+header{
+  
+    background: var(--bggradient);
+    animation-name:colorgrad;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+.appl-main{
+    position: absolute;
+    background: rgb(68, 160, 221);
+    width: 100%;
+    height: 100vmin;
+    z-index: 5;
+   display: none;
+    
+
+
+}
+.main-1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+.main-1 i{
+    float:right;
+    padding-right: 5vmin;
+    padding-top: 5vmin;
+    font-size: 50px;
+    cursor: pointer;
+  
+
+}
+header #navbarNav .fa{
+    cursor: pointer;
+}
+
+.ui-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-family: var(--Lobster);
+    font-size:1.5rem;
+}
+.ui-main li{
+    cursor: pointer;
+    padding: 30px 20px;
+    transition:  background-color ease-in-out 0.4s;
+}
+.ui-main li:hover{
+  background-color: #dd2476;
+
+}
+
+
+.dropdown-content{
+    position:absolute;
+    background-color: rgb(31, 29, 29);
+    max-width: 140px;
+    box-shadow: 0 2px 20px 20px ;
+    display: none;
+    opacity: 0.9;
+    width: 100px;
+ 
+    z-index: 1;
+    animation-name:colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ 
+
+}
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+    padding: 4px 15px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    transition: opacity .98s;
+ 
+  
+
+
+}
+@keyframes colorchange {
+    0% {background-color: rgb(31, 29, 29);}
+    25%{background-color: rgb(90, 84, 84);}
+    50%{background-color: rgb(17, 15, 15);}
+    75%{background-color:rgb(31, 29, 29);}
+    100%{background-color: rgb(99, 90, 90);}
+}
+@keyframes colorgrad {
+    /* 0% {background: linear-gradient(to bottom,#bb2476,#ff512f);}
+    25%{background: linear-gradient(to top,#bb2476,#bb786d);}
+    50%{background: linear-gradient(to left,#a75e87,#3a231f);}
+    75%{background:linear-gradient(to right,#bb2476,#ff512f);}
+    100%{background: linear-gradient(to bottom,#332b2f,#8a2b11);} */
+}
+header .nav-item:last-child {
+
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding:0.9em;
+}
+.navbar-brand{
+    padding-left: 8rem;
+}
+header .nav-link:hover{
+    color:black;
+}
+header .row .col-md-5{
+    padding:4.2vmin 1vmin;
+}
+header .row .col-md-7{
+    padding:22vmin 1vmin;
+    font-family: var(--Rubik);
+    color: white;
+    padding-bottom: 35vmin;
+}
+header .row .col-md-5 img{
+  width: 100%;
+  transition: box-shadow ease-in 0.5s;
+
+
+}
+header .row .col-md-5 img:hover{
+    box-shadow: 5px 5px 5px 5px;
+  
+  
+  }
+header .row .col-md-7 {
+    text-align: center;
+}
+header .row .col-md-7 h6{
+    padding-bottom: 12px;
+    letter-spacing: 2px;
+}
+header .row .col-md-7 h1{
+    padding-bottom: 13px;
+ 
+  font-weight: bold;
+  font-size:8vmin;
+
+}
+header .row .col-md-7 p{
+font-size: large;
+padding-bottom: 30px;
+}
+header .row .col-md-7 button{
+    font-size: large;
+  
+    border-radius: 30px;
+    font-weight: bold;
+    transition: letter-spacing ease-in 0.5s;
+
+    
+    }
+header .row .col-md-7 button:hover{
+      
+    letter-spacing: 4px;
+    background-color: rgb(91, 152, 163);
+  
+        
+ }
+
+ /* seaction-1 */
+ .section-1{
+     padding: 20vmin 0;
+ }
+ .section-1 .row .pray img{
+     width: 80%;
+     
+     height: 100vmin;
+ }
+ .section-1 .row .col-md-6:last-child{
+     position: relative;
+ }
+        
+ .section-1 .row .col-md-6:last-child  .panel{
+     position: absolute;
+     background-color: white;
+     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+     font-family:var(--Rubik);
+     border-radius: 3px;
+     top: 7vmin;
+     left: -18vmin;
+     padding: 12vmin 5vmin 20vmin 10vmin;
+     text-align: left;
+     z-index: 1;
+     
+ }
+ .section-1 .row .col-md-6 .panel h1{
+font-weight: bold;
+font-size: 2em;
+padding: 0.4em 0;
+
+
+ }
+ .section-1 .row .col-md-6 .panel p{
+     color: rgba(0,0 , 0,0.5);
+     font-size:0.9em;
+ }
+ /* section-2 */
+.cover{
+    /* //url(../images/pexels-designecologist-1779487.jpg); */
+    width: 100%;
+    background-image: url(../images/pexels-harsch-shivam-2007647.jpg);
+    height: 55vmin;
+    background-position: -24rem -19rem;
+    background-size: 100%;
+    position: relative;
+}
+.cover .content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 12rem;
+}
+.cover .content h1{
+  color: white;
+  font-weight: bold;
+  font-family: var(--Patua);
+  font-size:6vmin;
+    
+}
+.cover .content p{
+    color: wheat;
+    font-family: var(--Rubik);
+ 
+      
+  }
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.numbers .rect{
+    position: relative;
+    background: white;
+    z-index: 1;
+    width: 17rem;
+    height:12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(22, 54, 66, 0.568) ;
+    /* box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349) ; */
+
+
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    color: rgb(130, 165, 206);
+    font-size: 5rem;
+}
+.numbers .rect p{
+    color: black;
+    font-family: var(--Rubik);
+    font-size: 1rem;
+  
+}
+.purchase > h1{
+
+    font-family: var(--Lobster);
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+.purchase > p{
+
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 3vmin;
+  padding-bottom: 15vmin;
+
+}
+.purchase .cards  .card{
+  
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.card .title{
+    background: rgba(208,241,241,0.199);
+    padding: 1.4rem 2.5rem;
+    
+    font-size: 2vmin;
+}
+
+.card .title img{
+    width: 100%;
+}
+.card:nth-child(2) .title img{
+    width: 78%;
+}
+.card:nth-child(1) .title img{
+    width: 110%;
+}
+.card .card-text{
+    color: rgba(0, 0, 0, 0.8);
+    padding:5rem 2.5rem 3rem 2.5rem;
+}
+.card .pricing{ 
+    background: rgba(208,241,241,0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+    
+
+}
+.card-body .pricing>h1{
+    font-size: 10vmin;
+    padding:1em 0.5em;
+}
+
+/* section-3 */
+.section-3 {
+  
+  height: 50vmin;
+  width: 100%;
+  background:var(--bggradient);
+ 
+}
+.section-3 {
+    margin-top: 10vmin;
+    
+}
+.section-3 .row .col-md-12 h1{
+    padding:5vmin 0;
+    color: white;
+    font-weight:bold;
+    font-size: 3rem;
+
+}
+.section-3 .row .col-md-12 p{
+   
+    color: white;
+    opacity: 0.8;
+    padding: 0 12vmin;
+    font-size: 3vmin;
+
+}
+
+.section-3  .Platform .desktop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: whitesmoke;
+    width:30%;
+    justify-content: center;
+    border-radius: 10px;
+    padding:2vmin 0;
+
+}
+
+.section-3  .Platform .col-md-6 .dir-desktop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.section-3  .Platform .desktop i{
+   padding: 5px 20px;
+
+}
+.section-3  .Platform .desktop:hover{
+    background-color: #2e2c2caf;
+   color: white;
+    cursor: pointer;
+    transition:background-color  ease-in-out 0.5s;
+    
+
+}
+
+/* footer */
+
+footer{
+    margin-top: 200px;
+   background:rgb(43, 43, 83);
+    overflow-x: hidden;
+    /* margin: 20vmin 0 0 0 ; */
+    padding: 14vmin 18vmin;
+    
+}
+footer p>span{
+
+    /* color: #ff512f; */
+
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color:white !important;
+
+}
+footer .input-group .input-group-text{
+
+    background:var(--bggradient);
+    border:none;
+}
+footer .colunm i{
+    color:#dd2476;
+
+}
+footer .colunm i+i{
+    padding: 0 0.5em;
+}
+/* sticky class */
+.sticky{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:var(--bggradient);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
